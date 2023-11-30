@@ -32,7 +32,7 @@ void Filter(int[] elements)
             n[i] = elements[i];
         } 
     }
-    int countWithoutZeros = n.Count(x => x != 0);
+    int countWithoutZero = n.Count(x => x != 0);
     Console.WriteLine();
     Console.WriteLine($"Количество элементов массива, значения которых лежат в отрезке [20,90]: {countWithoutZeros}");
 }

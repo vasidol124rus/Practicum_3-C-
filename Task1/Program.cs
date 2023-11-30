@@ -34,7 +34,7 @@ void Filter(int[] elements)
     }
     int countWithoutZero = n.Count(x => x != 0);
     Console.WriteLine();
-    Console.WriteLine($"Количество элементов массива, значения которых лежат в отрезке [20,90]: {countWithoutZeros}");
+    Console.WriteLine($"Количество элементов массива, значения которых лежат в отрезке [20,90]: {countWithoutZero}");
 }
 
 int sizeMass = 10;

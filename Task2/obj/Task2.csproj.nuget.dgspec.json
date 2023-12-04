@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vasek\\LessonArreys\\Practicum_3-C-\\Task1\\Task1.csproj": {}
+    "C:\\Users\\vasek\\LessonArreys\\Practicum_3-C-\\Task2\\Task2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vasek\\LessonArreys\\Practicum_3-C-\\Task1\\Task1.csproj": {
+    "C:\\Users\\vasek\\LessonArreys\\Practicum_3-C-\\Task2\\Task2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vasek\\LessonArreys\\Practicum_3-C-\\Task1\\Task1.csproj",
-        "projectName": "Task1",
-        "projectPath": "C:\\Users\\vasek\\LessonArreys\\Practicum_3-C-\\Task1\\Task1.csproj",
+        "projectUniqueName": "C:\\Users\\vasek\\LessonArreys\\Practicum_3-C-\\Task2\\Task2.csproj",
+        "projectName": "Task2",
+        "projectPath": "C:\\Users\\vasek\\LessonArreys\\Practicum_3-C-\\Task2\\Task2.csproj",
         "packagesPath": "C:\\Users\\vasek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vasek\\LessonArreys\\Practicum_3-C-\\Task1\\obj\\",
+        "outputPath": "C:\\Users\\vasek\\LessonArreys\\Practicum_3-C-\\Task2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vasek\\AppData\\Roaming\\NuGet\\NuGet.Config"

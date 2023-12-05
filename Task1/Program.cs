@@ -1,17 +1,19 @@
-﻿    Console.Clear();   
+﻿Console.Clear();
+void InputArray(int[] array)
+{
+    for (int i = 0; i < 10; i++)
     {
-        Random random = new Random();
-        int[] numbers = new int[10];
-        int count = 0;
-
-        for (int i = 0; i < 10; i++)
-        {
-            numbers[i] = random.Next(1, 101); 
-            if (numbers[i] >= 20 && numbers[i] <= 90)
+        array[i] = new Random().Next(1, 101);
+    }
+}
+void 
+ if (numbers[i] >= 20 && numbers[i] <= 90)
             {
                 count++;
             }
-        }
-        Console.WriteLine($"Массив:  {string.Join(", ", numbers)}");
-        Console.WriteLine($"Kоличество элементов массива, значения которых лежат в отрезке [20,90]: " + count);
-    }
+        
+
+int[] array = new int [10];
+int[] numbers = new int[10];
+InputArray(array);
+Console.WriteLine($"Создали массив: [{string.Join(", ", array)}]");

@@ -1,19 +1,16 @@
 ﻿Console.Clear();
-void InputArray(int[] array)
-{
-    for (int i = 0; i < 10; i++)
-    {
-        array[i] = new Random().Next(1, 101);
-    }
-}
-void 
- if (numbers[i] >= 20 && numbers[i] <= 90)
+ Random random = new Random();
+        int[] elem = new int[10];
+        int count = 0;
+
+        for (int i = 0; i < 10; i++)
+        {
+            elem[i] = random.Next(1, 101); 
+            if (elem[i] >= 20 &&elem[i] <= 90)
             {
                 count++;
             }
-        
+        }
 
-int[] array = new int [10];
-int[] numbers = new int[10];
-InputArray(array);
-Console.WriteLine($"Создали массив: [{string.Join(", ", array)}]");
+        Console.WriteLine("Количество элементов в диапазоне 20 - 90: " + count);
+    

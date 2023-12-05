@@ -7,7 +7,7 @@ void InputArray(int[] array)
     }
 }
 
-int oddNubers(int[] array)
+int EvenNubers(int[] array)
 {   
     int count = 0;
     foreach (int element in array)
@@ -21,4 +21,4 @@ int oddNubers(int[] array)
 int[] array = new int [10];
 InputArray(array);
 Console.WriteLine($"Создали массив: [{string.Join(", ", array)}]");
-Console.WriteLine($"Результат: {oddNubers(array)}");
+Console.WriteLine($"Результат: {EvenNubers(array)}");
